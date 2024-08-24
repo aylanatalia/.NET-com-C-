@@ -12,3 +12,4 @@ C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\exemplo_fundamentos
 C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\exemplo_fundamentos\obj\Debug\net9.0\exemplo_fundamentos.pdb
 C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\exemplo_fundamentos\obj\Debug\net9.0\exemplo_fundamentos.genruntimeconfig.cache
 C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\exemplo_fundamentos\obj\Debug\net9.0\ref\exemplo_fundamentos.dll
+C:\Users\carlo\OneDrive\Área de Trabalho\Ayla\Programação\exemplo_fundamentos\obj\Debug\net9.0\exemplo_fundamentos.sourcelink.json

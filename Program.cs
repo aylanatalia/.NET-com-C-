@@ -44,7 +44,22 @@ int quantidadeCompra = 0;
 
 int numero = 5;
 
-for(int contador = 0; contador <= 10; contador++)
+// for(int contador = 0; contador <= 10; contador++)
+// {
+//   Console.WriteLine($"{numero} * {contador} = {numero * contador}");
+// }
+
+// exemplo while
+
+int contador = 0;
+
+while(contador <=10)
 {
   Console.WriteLine($"{numero} * {contador} = {numero * contador}");
+  contador++;
+
+  if(contador == 5)
+  {
+    break;
+  }
 }
