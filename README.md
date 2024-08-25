@@ -20,3 +20,7 @@ A abreviação prop + tab= atalho para atribuição de propriedades.
 Método é uma ação.
 
 usin namespace - serve para reconhecer a classe a qual esta sendo retiradas os métodos.
+
+uma array se difere da lista, porque a array precisa passar uma capacidade inicial e deve ser feita manualmente, enquanto a lista, mesmo que trabalhe internamente com array, não é necessário passar uma capacidade maxima.
+
+sln- soluction que é responsável por organizar os nossos .csproj.

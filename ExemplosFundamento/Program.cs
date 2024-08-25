@@ -118,3 +118,64 @@ while(exibirMenu)
       break;
   }
 }
+
+
+//trabalhando com array
+
+int[] arrayInteiros = new int [4];
+
+arrayInteiros[0] = 72;
+arrayInteiros[1] = 64;
+arrayInteiros[2] = 50;
+arrayInteiros[3] = 1;
+
+int[] arrayInteirosDobrado = new int[arrayInteiros.Length *2];
+Array.Copy(arrayInteiros, arrayInteirosDobrado, arrayInteiros.Length);
+
+Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2);
+
+//percorrendo o array com for
+
+for(int contador2 = 0; contador2 < arrayInteiros.Length; contador2++)
+{
+  Console.WriteLine($"Posição nº {contador2} - {arrayInteiros[contador2]}");
+}
+
+
+// percorrendo o array com foreach
+
+Console.WriteLine("Percorrendo o array com foreach");
+int contadorForEach = 0;
+
+foreach(int valor in arrayInteiros)
+{
+  Console.WriteLine($"Posição nº {contadorForEach} - {valor}");
+  contadorForEach++;
+}
+
+
+// trabalhando com lista
+
+List<string> listaString = new List<string>();
+
+listaString.Add("São Paulo");
+listaString.Add("Baiha");
+listaString.Add("Minas Gerais");
+listaString.Add("Rio de Janeiro");
+
+Console.WriteLine($"itens da minha lista {listaString.Count} - capacidade {listaString.Capacity}");
+
+listaString.Add("Santa Catarina");
+listaString.Remove("Minas Gerais");
+
+for(int contador3 = 0; contador3 < listaString.Count; contador3++)
+{
+  Console.WriteLine($"Posição nº {contador3} - {listaString[contador3]}");
+}
+
+int contadorForEach2 = 0;
+foreach(string item in listaString)
+{
+  Console.WriteLine($"Posição nº {contadorForEach2} - {item}");
+  contadorForEach2++;
+}
